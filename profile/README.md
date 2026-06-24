@@ -34,7 +34,7 @@ Running in closed beta at [jobsquatch.us](https://jobsquatch.us). Stack: FastAPI
 
 A platform built around a physical thing: a 3D-printed QR collar tag that links to a digital pet profile. When a stranger finds a lost pet, they scan the tag, land on the profile, and can contact the owner without either side exchanging phone numbers.
 
-The tag geometry is parametric OpenSCAD — three shapes (hexagon, capsule, crest), two-color filament, color-change pause baked into the G-code. The marketing landing page is live and the waitlist is open. The platform itself (pet profiles, finder contact relay, owner dashboard) is next.
+The tag geometry is parametric OpenSCAD — three shapes (hexagon, capsule, crest), two-color filament, color-change pause baked into the G-code. The marketing landing page is live at [clasp.pet](https://clasp.pet). The platform itself (pet profiles, finder contact relay, owner dashboard) is next.
 
 **Status:** Early stage · Private
 
