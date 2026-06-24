@@ -14,7 +14,7 @@ Discovery is read-only. The write path — when there's a finding worth acting o
 
 Current state: hardware node inventory and encrypted secrets integration are complete. Automated CD is running.
 
-**Status:** Active development · Private
+**Status:** Active development · Public
 
 ---
 
