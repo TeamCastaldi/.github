@@ -12,7 +12,7 @@ A Model Context Protocol server that acts as the authoritative service catalog f
 
 Discovery is read-only. The write path — when there's a finding worth acting on — opens a PR, attaches a DSPy-generated remediation patch, and waits for a human to merge it. Nothing ships automatically.
 
-Current state: hardware node inventory and git-crypt secrets integration are complete. CD runs on a GitHub Actions self-hosted runner on the homelab itself — new image, deploy verified in 18 seconds.
+Current state: hardware node inventory and encrypted secrets integration are complete. Automated CD is running.
 
 **Status:** Active development · Private
 
@@ -24,7 +24,7 @@ A job search tool built around the idea that AI-assisted cover letters shouldn't
 
 It's not an ATS optimization tool. That approach is explicitly out of scope.
 
-Running in closed beta at [jobsquatch.us](https://jobsquatch.us). Stack: FastAPI + React + PostgreSQL + Redis + Stripe, deployed on panoptichron via Cloudflare Tunnel.
+Running in closed beta at [jobsquatch.us](https://jobsquatch.us). Stack: FastAPI + React + PostgreSQL + Redis + Stripe, self-hosted.
 
 **Status:** Closed beta · Live
 
