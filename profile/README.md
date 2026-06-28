@@ -36,7 +36,7 @@ A public template with a FastAPI backend, React/Vite frontend, opinionated folde
 
 Welcome to TeamCastaldi. This repo is your starting point. Read it before you touch anything else.
 
-**Status:** Public
+**Status:** Public · No license
 
 ---
 
@@ -44,7 +44,7 @@ Welcome to TeamCastaldi. This repo is your starting point. Read it before you to
 
 Organization profile and shared configuration.
 
-**Status:** Public
+**Status:** Public · No license
 
 ---
 
