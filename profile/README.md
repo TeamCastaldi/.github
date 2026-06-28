@@ -6,15 +6,45 @@ Nathan Castaldi — IT professional, homelab builder, amateur one-man software s
 
 ## Projects
 
+### kitchenowl-mcp
+
+An MCP (Model Context Protocol) server that connects Claude to a household KitchenOwl instance. Enables read/write access to recipes, shopping lists, and meal planning.
+
+**Status:** Active · Public · MIT License
+
+---
+
 ### homelab-registry-mcp
 
-A Model Context Protocol server that acts as the authoritative service catalog for a homelab. It discovers services from Traefik, Docker, and Authentik; reconciles them against a curated SQLite registry; and exposes the whole thing as MCP tools, resources, and prompts for AI agents.
+A Model Context Protocol server that keeps an authoritative catalog of every service in your homelab, detects security misconfigurations, and proposes fixes through a human-in-the-loop PR workflow.
 
 Discovery is read-only. The write path — when there's a finding worth acting on — opens a PR, attaches a DSPy-generated remediation patch, and waits for a human to merge it. Nothing ships automatically.
 
-Current state: hardware node inventory and encrypted secrets integration are complete. Automated CD is running.
+**Status:** Active development · Public · MIT License
 
-**Status:** Active development · Public
+---
+
+### project-template
+
+A public template with a FastAPI backend, React/Vite frontend, opinionated folder structure, dev workflow prompts, and CI out of the box.
+
+**Status:** Public template · MIT License
+
+---
+
+### teamcastaldi-onboarding
+
+Welcome to TeamCastaldi. This repo is your starting point. Read it before you touch anything else.
+
+**Status:** Public
+
+---
+
+### .github
+
+Organization profile and shared configuration.
+
+**Status:** Public
 
 ---
 
@@ -26,25 +56,7 @@ It's not an ATS optimization tool. That approach is explicitly out of scope.
 
 Running in closed beta at [jobsquatch.us](https://jobsquatch.us). Stack: FastAPI + React + PostgreSQL + Redis + Stripe, self-hosted.
 
-**Status:** Closed beta · Live
-
----
-
-### clasp.pet
-
-A platform built around a physical thing: a 3D-printed QR collar tag that links to a digital pet profile. When a stranger finds a lost pet, they scan the tag, land on the profile, and can contact the owner without either side exchanging phone numbers.
-
-The tag geometry is parametric OpenSCAD — three shapes (hexagon, capsule, crest), two-color filament, color-change pause baked into the G-code. The marketing landing page is live at [clasp.pet](https://clasp.pet). The platform itself (pet profiles, finder contact relay, owner dashboard) is next.
-
-**Status:** Early stage · Private
-
----
-
-### tv-as-a-service
-
-A B2B2C platform for managed in-room entertainment in short-term rentals. Property owners get premium hardware and support; guests get a setup that works without calling anyone. The gap between "smart home" and "reliably working home" is a real problem in the STR space.
-
-**Status:** Early stage · Private
+**Status:** Closed beta · Live · Private / Proprietary
 
 ---
 
